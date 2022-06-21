@@ -76,20 +76,20 @@ Ci dessous quelques points importants :
 
 Le taux de rebond sur les enquêtes
 
-![analyserebond](./img/taux-de-rebond.png){width=100%}
+![analys taux de rebond](./img/taux-de-rebond.png){width=80%}
 
 Analyse moyenne par genre
 
-![analyse-genre](./img/taux-de-rebond.png){width=100%}
+![analyse genre](./img/taux-de-rebond.png){width=80%}
 
 
 Taux de rebond par enquête
 
-![taux-de-rebond2](./img/Taux-de-rebond2.png){width=100%}
+![taux de rebond](./img/Taux-de-rebond2.png){width=80%}
 
 Rapport d'achat sur la boutique
 
-![rappport-d-achat](./img/achat-maxigift.png){width=100%}
+![rappport d'achat](./img/achat-maxigift.png){width=80%}
 
 ## Conclusion
 
@@ -97,7 +97,7 @@ Dans notre cas d'usage, le traitement de la base de données MYSQL du site avec 
 que les rapports de Google Anaytics. Notons aussi que nous n'avons eu a installer aucun tag analytics pour impacter le temps de chargement de nos pages.
 Grace a l'analyse de données, les améliorations prochaine dans un seconde déploiement du site web sont l'amélioration de l'expèrience utilisateur, 
 amélioration des formulaires pour diminuer le taux de valeur nulles et une automatisation de ce rapport avec extraction de la base de données automatique sur un drive google.
-Tous ces points feront l'objet du prochain article 😊.
+Tous ces points feront l'objet du prochain article.
 
 
 
