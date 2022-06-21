@@ -5,7 +5,7 @@ date: June, 2022
 lang: fr-FR
 urlcolor: blue
 geometry: "left=2.5cm,right=2.5cm,top=3cm,bottom=3cm"
-documentclass: article
+documentclass: article-maxigift-franck-donald-Bassa
 fontfamily: Alegreya
 header-includes: |
     \usepackage{fancyhdr}
@@ -90,6 +90,9 @@ Taux de rebond par enquête
 Rapport d'achat sur la boutique
 
 ![rappport d'achat](./img/achat-maxigift.png){width=80%}
+
+
+
 
 ## Conclusion
 
