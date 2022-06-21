@@ -45,33 +45,75 @@ L'agence possède plusieurs produits propre à elle dont [MAXIGIFT](https://maxi
 
 MAXIGIFT est une plateforme de sondages rémunérés avec des points échangeables contre divers articles. En fait, l'utilisateur répond a des sondages sur diverses thématiques comme la Téléphone, l'Internet, les cartes visas etc et après chaque sondage validé il recoit un nombre de point en fonction de la catégorie du sondage. Une boutique en ligne est disponible sur le site semblable a un site ecommerce avec un panier mais le moyen de paiement reste uniquement le nombre de point obtenu.
 
-## Que donne l'usage des outils de Google Analytics ?
+## Que donne l'usage de Google Analytics et Google Studio ?
 
-Google Analytics est un outil puissant qui permet d’analyser un grand nombre d’informations relatives à l’activité de votre site internet. Cette solution est proposée par Google gratuitement sans nécessité de payer des droits d’entrée ou d’utilisation par la suite.
+Google Analytics et Google Studio sont des outils puissants qui permettent d’analyser un grand nombre d’informations relatives à l’activité de votre site internet. retenoons juste que Google Analytics extrait des données et Google studio se charge d'afficher ces données en figures graphiques lisibles. 
+Ces solutions sont proposées par Google gratuitement sans nécessité de payer des droits d’entrée ou d’utilisation par la suite.
 
-Il est utilisée par la majorité des administrateurs de sites internet désireux d’analyser leur trafic. Il est vite devenu indispensable lorsque l’on souhaite suivre de près ses campagnes de marketing digital et faire des reportings, permet aussi le calcul du retour sur investissement et bien d'autres.
+Google Analytics est utilisé par la majorité des administrateurs de sites internet désireux d’analyser leur trafic. Il est vite devenu indispensable lorsque l’on souhaite suivre de près ses campagnes de marketing digital et faire des reportings, permet aussi le calcul du retour sur investissement et bien d'autres.
 
 De manière concrète cet outil nous permet sur [MAXIGIFT](https://maxigift.net/) de tracker les données des pages (Nombres de vues, Taux de rebond, nombres de clics etc).
 
 ## Ensuite nous avons connu Google Colab avec le langage python
 
-Colab est le diminutif de colaboratory et comme son nom, il désigne un espace ou l'on peut colaborer sur des projets du machine learning et de l'analyse de données. En termes plus techniques, Colab est un service hébergé de notebooks Jupyter qui ne nécessite aucune configuration et permet d'accéder sans frais à des ressources informatiques, dont des GPU.
+Colab est le diminutif de colaboratory et comme son nom, il désigne un espace colaboratif de developpement de projets du machine learning et de l'analyse de données. En termes plus techniques, Colab, developpé avec le langage Python, est un service hébergé de notebooks Jupyter qui ne nécessite aucune configuration et permet d'accéder sans frais à des ressources informatiques, dont des GPU.
 
 Google Colab est un outil très connu dans le monde de la data et beaucoup utilisé par les data scientist, les ingénieurs logiciels et autres acteurs de la data.
 
-## Et à l’usage, que donne l'utilisation de google collab pour mon site Maxigift?
+## Et à l’usage, que donne Google Colab pour mon site Maxigift?
 
 ![Google_colab](./img/jupyter-google-colab.png){width=40%}
 
+GOOGLE Colab avec le langage Python m'ont permis de ressortir un rapport avec des états et des recomandations à l'équipe du projet.
+Ci dessous quelques points importants :
+
+- Action sur de la base de données
+  - Correction des valeurs nulles
+  - Corrections des valeurs multiples (Champs select)
+- Le schéma de perte entre les questions d'une même enquête
+- Amélioration du taux de rebond sur les surveys
+- Amélioration de l'expérience utilisateur
+
+Le taux de rebond sur les enquêtes
+
+![analyserebond](./img/taux-de-rebond.png){width=100%}
+
+Analyse moyenne par genre
+
+![analyse-genre](./img/taux-de-rebond.png){width=100%}
+
+
+Taux de rebond par enquête
+
+![taux-de-rebond2](./img/Taux-de-rebond2.png){width=100%}
+
+Rapport d'achat sur la boutique
+
+![rappport-d-achat](./img/achat-maxigift.png){width=100%}
+
+## Conclusion
+
+Dans notre cas d'usage, le traitement de la base de données MYSQL du site avec Google Colab s'est avérée très bénéfique pour faire ressortir des conclusions plus précises
+que les rapports de Google Anaytics. Notons aussi que nous n'avons eu a installer aucun tag analytics pour impacter le temps de chargement de nos pages.
+Grace a l'analyse de données, les améliorations prochaine dans un seconde déploiement du site web sont l'amélioration de l'expèrience utilisateur, 
+amélioration des formulaires pour diminuer le taux de valeur nulles et une automatisation de ce rapport avec extraction de la base de données automatique sur un drive google.
+Tous ces points feront l'objet du prochain article 😊.
 
 
 
 
-```python
+
+
+
+
+
+
+
+<!-- ```python
 # module foo.py
 
 a = 42
 
 def bar(x):
     print(x)
-```
+``` -->
