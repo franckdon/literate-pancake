@@ -94,7 +94,7 @@ Alors démarrons sans plus tarder à étudier la base de données du site propos
 
 ![Google_colab](./img/jupyter-google-colab.png){width=40%}
 
-GOOGLE Colab avec le langage Python m'ont permis de ressortir un rapport avec des états et des recomandations à l'équipe du projet.
+GOOGLE Colab avec le langage Python m'ont permis de ressortir un rapport en pdf avec des états et des recomandations à l'équipe du projet.
 
 Ci dessous quelques points importants :
 
