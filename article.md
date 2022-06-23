@@ -106,9 +106,9 @@ Durant le processus d'analyse des données, nous avons une étape de détection 
 **Le schéma de perte entre les questions d'une même enquête**
 
 cette étude montre le taux de rebond d'une question à une autre. Plus le sondage est long, alors moins de personne arrive jusqu'a la fin du sondage.
-Il nous faudra améliorer nos questions, les rendre plus funs, plus simples, plus interessantes.
+Il nous faudra améliorer nos questions, les rendre plus fun, plus simples, plus intéressantes.
 
-![analys taux de rebond](./img/taux-de-rebond.png){width=70%}
+![analyse taux de rebond](./img/taux-de-rebond.png){width=70%}
 
 ![taux de rebond](./img/Taux-de-rebond2.png){width=70%}
 
@@ -125,6 +125,8 @@ Une analyse simple par genre en fonction du nombre total d'utilisateurs de maxig
 Création d'un graphique montrant le nombre d'acaht effectué par mois.
 
 ![rappport d'achat](./img/achat-maxigift.png){width=70%}
+
+
 
 
 
