@@ -26,7 +26,7 @@ header-includes: |
 
 # Comment j'ai pu intégrer l'analyse de données avec Python dans mon agence digitale
 
-L'objectif de cet article est de vous montrer en quelques lignes les enjeux de la science des données dans le domaine du marketing digital et de montrer subtilement de façon pratique comment cette science nous aide à améliorer l'expérience utilisateurs pour plus d'achat ou par plus de conversion.
+L'objectif de cet article est de vous montrer en quelques lignes les enjeux de l'analyse des données dans le domaine du marketing digital et de montrer subtilement de façon pratique comment cette analyse nous aide à améliorer l'expérience utilisateur pour plus d'achat ou par plus de conversion.
 
 ![Image_d_illust](./img/shutterstock1.jpeg){width=70%} ;
 
@@ -45,7 +45,8 @@ L'agence possède plusieurs produits propre à elle dont [MAXIGIFT](https://maxi
 
 MAXIGIFT est une plateforme de sondages rémunérés avec des points échangeables contre divers articles. En fait, l'utilisateur répond a des sondages sur diverses thématiques comme la Téléphonie, l'Internet, les cartes visas etc et après chaque sondage validé 
 il recoit un nombre de point en fonction de la catégorie du sondage. 
-Une boutique en ligne est disponible sur le site semblable a un site ecommerce avec un panier mais le moyen de paiement reste uniquement le nombre de point obtenu.
+Une boutique en ligne est disponible sur le site semblable a un site ecommerce avec un panier mais le moyen de paiement reste uniquement le nombre de points obtenus.
+ce site est ouvert pour tout type de cible, particuliers comme entreprise. Une section de maxigift appelé pannel lab se charge de la vente de base de données, de songades de particuliers et biens d'autres actions. 
 
 ## Que donne l'usage de Google Analytics et Google Studio ?
 
@@ -62,37 +63,55 @@ Colab est le diminutif de colaboratory et comme son nom, il désigne un espace c
 
 Google Colab est un outil très connu dans le monde de la data et beaucoup utilisé par les data scientist, les ingénieurs logiciels et autres acteurs de la data.
 
+## Ce qu'il faut savoir pour bien démarrer notre analyse de donées
+
+### Installation de Pandas
+
+Il nous faudra importes ses bibliothèques suivantes dans notre notebook Google colab : 
+
+```
+import pandas as pd
+import matplotlib.pyplot as plt
+%matplotlib inline
+import seaborn as sn
+import altair as alt
+
+```
+
+
 ## Et à l’usage, que donne Google Colab pour mon site Maxigift?
+
 
 ![Google_colab](./img/jupyter-google-colab.png){width=40%}
 
 GOOGLE Colab avec le langage Python m'ont permis de ressortir un rapport avec des états et des recomandations à l'équipe du projet.
 Ci dessous quelques points importants :
 
-- Action sur de la base de données
-  - Correction des valeurs nulles
-  - Corrections des valeurs multiples (Champs select)
-- Le schéma de perte entre les questions d'une même enquête
-- Amélioration du taux de rebond sur les surveys
-- Amélioration de l'expérience utilisateur
+**Impacts sur de la base de données**
 
-Le taux de rebond sur les enquêtes
-
-![analys taux de rebond](./img/taux-de-rebond.png){width=80%}
-
-Analyse moyenne par genre
-
-![analyse genre](./img/taux-de-rebond.png){width=80%}
+Durant le processus d'analyse des données, nous avons une étape de détection de valeurs nulles et d'uniformisation des données. Afin d'avoir un taux de valeurs nulles faibles, il nous faut corriger nos formulaires, proposer des valeurs par défaut qui ne sont nulles et prioriser les champs de type Select au détriment des champs de type texte saisie libre.  
 
 
-Taux de rebond par enquête
+**Le schéma de perte entre les questions d'une même enquête**
 
-![taux de rebond](./img/Taux-de-rebond2.png){width=80%}
+cette étude montre le taux de rebond d'une question à une autre. Plus le sondage est long, alors moins de personne arrive jusqu'a la fin du sondage.
+Il nous faudra améliorer nos questions, les rendre plus funs, plus simples, plus interessantes.
 
-Rapport d'achat sur la boutique
+![analys taux de rebond](./img/taux-de-rebond.png){width=70%}
 
+![taux de rebond](./img/Taux-de-rebond2.png){width=70%}
+
+**Analyse moyenne par genre**
+
+Une analyse simple par genre en fonction du nombre total d'utilisateurs de maxigift
+![analyse genre](./img/taux-de-rebond.png){width=70%}
+
+
+
+**Rapport d'achat sur la boutique**
+
+Création d'un graphique montrant le nombre d'acaht effectué par mois.
 ![rappport d'achat](./img/achat-maxigift.png){width=80%}
-
 
 
 
@@ -106,19 +125,3 @@ Tous ces points feront l'objet du prochain article.
 
 
 
-
-
-
-
-
-
-
-
-<!-- ```python
-# module foo.py
-
-a = 42
-
-def bar(x):
-    print(x)
-``` -->
