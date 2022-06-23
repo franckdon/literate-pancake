@@ -95,6 +95,7 @@ Alors démarrons sans plus tarder à étudier la base de données du site propos
 ![Google_colab](./img/jupyter-google-colab.png){width=40%}
 
 GOOGLE Colab avec le langage Python m'ont permis de ressortir un rapport avec des états et des recomandations à l'équipe du projet.
+
 Ci dessous quelques points importants :
 
 **Impacts sur de la base de données**
@@ -132,7 +133,7 @@ Création d'un graphique montrant le nombre d'acaht effectué par mois.
 Dans notre cas d'usage, le traitement de la base de données MYSQL du site avec Google Colab s'est avéré très bénéfique pour faire ressortir des conclusions plus précises
 que les rapports de Google Anaytics. Notons aussi que nous n'avons pas eu à installer des tags analytics pour impacter le temps de chargement de nos pages.
 Grace a l'analyse de données, les améliorations prochaine dans un second déploiement du site web seront l'amélioration de l'expérience utilisateur, 
-amélioration des formulaires pour diminuer le taux de valeurs nulles et une automatisation de ce rapport avec extraction de la base de données automatique sur un drive google.
+amélioration des formulaires pour diminuer le taux de valeurs nulles et une implémentation des graphiques dans le dashbord d'administratiojn du site. Ce la entrainera un déploiement d'une nouvelle version du site mais développée dans le langage python, peut être avec le framework Django.
 Tous ces points feront l'objet du prochain article.
 
 
