@@ -67,9 +67,17 @@ Google Colab est un outil très connu dans le monde de la data et beaucoup utili
 
 ### Installation de Pandas
 
-Il nous faudra importes ses bibliothèques suivantes dans notre notebook Google colab : 
+Il nous faudra importer ces bibliothèques suivantes dans notre notebook Google colab : 
 
-```
+**pandas** est une bibliothèque du langage de programmation Python, entièrement dédiée à la Data Science.
+
+**matplotlib** est une blibliothèque python qui nous permet de générer directement des graphiques biensur en fonction de certaines variables.
+
+**Seaborn** et **Altair** sont des outils de Data Visualization en langage Python.
+
+```python
+# Import modules 
+
 import pandas as pd
 import matplotlib.pyplot as plt
 %matplotlib inline
@@ -77,6 +85,8 @@ import seaborn as sn
 import altair as alt
 
 ```
+
+Alors démarrons sans plus tarder à étudier la base de données du site proposées avec Pandas pour la manipulation et l’analyse de données.
 
 
 ## Et à l’usage, que donne Google Colab pour mon site Maxigift?
@@ -101,17 +111,19 @@ Il nous faudra améliorer nos questions, les rendre plus funs, plus simples, plu
 
 ![taux de rebond](./img/Taux-de-rebond2.png){width=70%}
 
+
 **Analyse moyenne par genre**
 
 Une analyse simple par genre en fonction du nombre total d'utilisateurs de maxigift
-![analyse genre](./img/taux-de-rebond.png){width=70%}
 
+![analyse genre](./img/taux-de-rebond.png){width=70%}
 
 
 **Rapport d'achat sur la boutique**
 
 Création d'un graphique montrant le nombre d'acaht effectué par mois.
-![rappport d'achat](./img/achat-maxigift.png){width=80%}
+
+![rappport d'achat](./img/achat-maxigift.png){width=70%}
 
 
 
